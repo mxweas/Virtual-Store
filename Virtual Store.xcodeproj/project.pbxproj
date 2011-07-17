@@ -203,6 +203,7 @@
 		50DBF78C13D36B0000E9D705 /* CeilingTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBF78B13D36B0000E9D705 /* CeilingTexture.png */; };
 		50DBF78E13D36BA200E9D705 /* Steve.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBF78D13D36BA200E9D705 /* Steve.png */; };
 		50DBF79013D36E0400E9D705 /* ExitTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DBF78F13D36E0400E9D705 /* ExitTexture.png */; };
+		50DBF79213D37C9600E9D705 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50DBF79113D37C9600E9D705 /* LICENSE.txt */; };
 		50F58F1813D2040D007519B0 /* WoodTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F58F1713D2040D007519B0 /* WoodTexture.png */; };
 		50F58F2113D22BBD007519B0 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F58F2013D22BBD007519B0 /* Product.m */; };
 		50F58F3313D25328007519B0 /* PriceTag.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F58F3213D25328007519B0 /* PriceTag.png */; };
@@ -604,6 +605,7 @@
 		50DBF78B13D36B0000E9D705 /* CeilingTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CeilingTexture.png; sourceTree = "<group>"; };
 		50DBF78D13D36BA200E9D705 /* Steve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steve.png; sourceTree = "<group>"; };
 		50DBF78F13D36E0400E9D705 /* ExitTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExitTexture.png; sourceTree = "<group>"; };
+		50DBF79113D37C9600E9D705 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		50F58F1713D2040D007519B0 /* WoodTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodTexture.png; sourceTree = "<group>"; };
 		50F58F1F13D22BBC007519B0 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		50F58F2013D22BBD007519B0 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
@@ -670,6 +672,7 @@
 		500B37EF13CF4D8600F8200D /* Virtual Store */ = {
 			isa = PBXGroup;
 			children = (
+				50DBF79113D37C9600E9D705 /* LICENSE.txt */,
 				500B37F813CF4D8600F8200D /* VirtualStoreAppDelegate.h */,
 				500B37F913CF4D8600F8200D /* VirtualStoreAppDelegate.m */,
 				500B39A413CF50B100F8200D /* MainViewController.h */,
@@ -1299,6 +1302,7 @@
 				50DBF78C13D36B0000E9D705 /* CeilingTexture.png in Resources */,
 				50DBF78E13D36BA200E9D705 /* Steve.png in Resources */,
 				50DBF79013D36E0400E9D705 /* ExitTexture.png in Resources */,
+				50DBF79213D37C9600E9D705 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
