@@ -43,10 +43,10 @@
             break;
         case StoreStateSuccess:
             [doorsLayer setDoorsOpen:NO animated:animated];
-            doorsLayer.leftDoor.greenLight.isBlinking = NO;
             doorsLayer.leftDoor.redLight.isBlinking = NO;
             doorsLayer.leftDoor.greenLight.isOn = YES;
             doorsLayer.leftDoor.redLight.isOn = NO;
+            doorsLayer.leftDoor.greenLight.isBlinking = YES;
             break;
         case StoreStateFail:
             [doorsLayer setDoorsOpen:NO animated:animated];

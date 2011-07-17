@@ -81,6 +81,7 @@
         float direction = 0.8f - fabsf(gravity.x);
         CC3Vector camLocation = camera.location;
         camLocation.z += 0.4f*direction*camera.forwardDirection.z;
+        camLocation.z = MIN(MAX(-53.0f, camLocation.z), 12.0f);
         camera.location = camLocation;
     }
 }

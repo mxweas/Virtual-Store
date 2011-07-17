@@ -143,7 +143,7 @@ static MainViewController *sharedInstance = nil;
     eaglView.autoresizingMask = self.view.autoresizingMask;
     [director setOpenGLView:eaglView];
     [director setAnimationInterval:1/60.0f];
-    [director setDisplayFPS:YES];
+    //[director setDisplayFPS:YES];
     self.view = eaglView;
     
     [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA8888];
